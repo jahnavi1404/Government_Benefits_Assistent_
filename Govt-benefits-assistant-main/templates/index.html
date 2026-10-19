@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}"{% if rtl %} dir="rtl"{% endif %}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ t.app_title }} — {{ t.app_sub }}</title>
+<meta name="description" content="{{ t.app_sub }}. {{ stats.total }} central and state government schemes, with eligibility, documents and official application links.">
+{% for code, label in languages %}<link rel="alternate" hreflang="{{ code }}" href="/?lang={{ code }}">
+{% endfor %}<meta property="og:title" content="{{ t.app_title }}">
+<meta property="og:description" content="{{ t.app_sub }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&family=Noto+Sans+Gurmukhi:wght@400;600;700&family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&family=Noto+Sans+Ol+Chiki:wght@400;600&family=Noto+Naskh+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div>
+      <h1>{{ t.app_title }}</h1>
+      <p class="masthead-sub">{{ t.app_sub }}</p>
+    </div>
+    <label class="lang">
+      <span class="lang-icon" aria-hidden="true">अ</span>
+      <select id="langSelect" aria-label="Language">
+        {% for code, label in languages %}
+        <option value="{{ code }}" {% if code == lang %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+    </label>
+  </div>
+</header>
+
+<main class="wrap layout">
+
+  <section class="console" aria-label="{{ t.form_heading }}">
+    <div class="doors" role="tablist">
+      <button class="door is-open" role="tab" aria-selected="true" data-mode="form">
+        <span class="door-title">{{ t.tab_profile }}</span>
+      </button>
+      <button class="door" role="tab" aria-selected="false" data-mode="chat">
+        <span class="door-title">{{ t.tab_chat }}</span>
+      </button>
+    </div>
+
+    <!-- ------------------------------------------------ profile form -->
+    <div class="pane" id="pane-form">
+      <p class="pane-note">{{ t.form_note }}</p>
+      <form id="profileForm" class="grid">
+        <label class="field">
+          <span>{{ t.lbl_age }}</span>
+          <input type="number" name="age" min="0" max="120" inputmode="numeric" placeholder="34">
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_gender }}</span>
+          <select name="gender">
+            <option value="">{{ t.opt_select }}</option>
+            <option value="female">{{ t.opt_female }}</option>
+            <option value="male">{{ t.opt_male }}</option>
+            <option value="transgender">{{ t.opt_transgender }}</option>
+          </select>
+        </label>
+
+        <label class="field field-wide">
+          <span>{{ t.lbl_income }}</span>
+          <input type="number" name="income" min="0" step="1000" inputmode="numeric" placeholder="150000">
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_occupation }}</span>
+          <select name="occupation">
+            <option value="">{{ t.opt_select }}</option>
+            {% for o in occupations %}<option value="{{ o }}">{{ o|title }}</option>{% endfor %}
+          </select>
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_education }}</span>
+          <select name="education">
+            <option value="">{{ t.opt_select }}</option>
+            {% for e in education %}<option value="{{ e }}">{{ e|title }}</option>{% endfor %}
+          </select>
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_category }}</span>
+          <select name="social_category">
+            <option value="">{{ t.opt_select }}</option>
+            {% for c in categories %}<option value="{{ c }}">{{ c|upper }}</option>{% endfor %}
+          </select>
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_state }}</span>
+          <select name="state">
+            <option value="">{{ t.opt_select }}</option>
+            {% for s in states %}<option value="{{ s }}">{{ s }}</option>{% endfor %}
+          </select>
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_area }}</span>
+          <select name="area">
+            <option value="">{{ t.opt_select }}</option>
+            <option value="rural">{{ t.opt_rural }}</option>
+            <option value="urban">{{ t.opt_urban }}</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>{{ t.lbl_disability }}</span>
+          <select name="disability">
+            <option value="">{{ t.opt_select }}</option>
+            <option value="yes">{{ t.opt_yes }}</option>
+            <option value="no">{{ t.opt_no }}</option>
+          </select>
+        </label>
+
+        <div class="actions field-wide">
+          <button type="submit" class="btn-primary">{{ t.btn_find }}</button>
+          <button type="reset" class="btn-quiet">{{ t.btn_reset }}</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- ------------------------------------------------------- chat -->
+    <div class="pane" id="pane-chat" hidden>
+      <p class="pane-note">{{ t.chat_heading }}</p>
+      <div class="transcript" id="transcript" aria-live="polite"></div>
+      <div class="chat-slots" id="chatSlots"></div>
+      <form id="chatForm" class="composer">
+        <input type="text" id="chatInput" autocomplete="off"
+               placeholder="{{ t.chat_placeholder }}">
+        <button type="submit" class="btn-primary">{{ t.chat_send }}</button>
+      </form>
+      <button type="button" class="btn-quiet chat-reset" id="chatReset">{{ t.chat_restart }}</button>
+    </div>
+  </section>
+
+  <!-- --------------------------------------------------------- results -->
+  <section class="results" aria-live="polite">
+    <div class="results-head">
+      <h2 id="resultsTitle">{{ t.results_heading }}</h2>
+      <span class="counter" id="resultsCount"></span>
+    </div>
+    <div class="filters" id="filters" hidden>
+      <button class="chip is-on" data-filter="all">{{ t.filter_all }}</button>
+      <button class="chip" data-filter="verified">{{ t.filter_verified }}</button>
+      <button class="chip" data-filter="central">{{ t.badge_central }}</button>
+      <button class="chip" data-filter="state">{{ t.badge_state }}</button>
+    </div>
+    <div id="resultList"></div>
+    <div id="nearList"></div>
+    <p class="seed">
+      <a href="/schemes">Browse every scheme</a> ·
+
+      {{ stats.total }} schemes in the dataset · {{ stats.central }} central ·
+      {{ stats.state }} state across {{ stats.states_covered|length }} states
+    </p>
+  </section>
+</main>
+
+<footer class="wrap foot"><p>{{ t.disclaimer }}</p></footer>
+
+<script>
+  window.T = {{ t|tojson }};
+  window.LANG = {{ lang|tojson }};
+</script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}"{% if rtl %} dir="rtl"{% endif %}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ heading }} — {{ t.app_title }}</title>
+<meta name="description" content="{{ heading }}: eligibility, benefits, documents and how to apply. {{ schemes|length }} schemes listed.">
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div>
+      <h1><a href="/?lang={{ lang }}" style="color:inherit;text-decoration:none">{{ t.app_title }}</a></h1>
+      <p class="masthead-sub">{{ t.app_sub }}</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap article">
+  <h2>{{ heading }}</h2>
+  <p class="muted">{% if schemes %}{{ schemes|length }} {{ t.results_count }}. {% endif %}<a href="/?lang={{ lang }}">{{ t.btn_find }}</a></p>
+
+  <nav class="statenav">
+    <a href="/schemes/central">{{ t.badge_central }}</a>
+    {% for name, slug in states %}<a href="/schemes/{{ slug }}">{{ name }}</a>{% endfor %}
+  </nav>
+
+  <ul class="plain">
+    {% for s in schemes %}
+    <li><a href="/scheme/{{ s.id }}?lang={{ lang }}">{{ s.name }}</a>
+      <span class="muted">{{ s.state or t.badge_central }}</span></li>
+    {% endfor %}
+  </ul>
+</main>
+
+<footer class="wrap foot"><p>{{ t.disclaimer }}</p></footer>
+</body>
+</html>

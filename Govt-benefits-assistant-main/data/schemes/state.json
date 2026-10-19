@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "ts-aarogyasri",
+    "name": "Rajiv Aarogyasri Health Scheme",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Health, Medical and Family Welfare Department, Telangana",
+    "categories": [
+      "health",
+      "insurance"
+    ],
+    "summary": "Cashless treatment for listed serious illnesses at empanelled government and private hospitals for poor families in Telangana.",
+    "benefits": "Cashless coverage for a large list of surgical and medical procedures at network hospitals, along with follow-up medicines. Coverage limits have been enhanced in recent years — verify the current ceiling.",
+    "eligibility": {
+      "states": [
+        "Telangana"
+      ],
+      "other_criteria": [
+        "Family must hold a white ration card / Aarogyasri card issued by the Telangana government",
+        "Treatment must be for a listed procedure at a network hospital"
+      ]
+    },
+    "documents": [
+      "Aarogyasri health card or white ration card",
+      "Aadhaar card",
+      "Referral from a government hospital or health camp where required"
+    ],
+    "process": [
+      "Approach the Aarogyamithra help desk at a network hospital",
+      "Card verified and pre-authorisation raised",
+      "Treatment provided cashless"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://www.aarogyasri.telangana.gov.in",
+    "keywords": "health insurance hospital surgery treatment telangana aarogyasri cashless illness white ration card",
+    "source": "curated"
+  },
+  {
+    "id": "ts-kalyana-lakshmi",
+    "name": "Kalyana Lakshmi / Shaadi Mubarak",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "SC/ST/BC/Minorities Welfare Departments, Telangana",
+    "categories": [
+      "women",
+      "marriage",
+      "financial assistance"
+    ],
+    "summary": "One-time financial assistance for the marriage of unmarried girls from poor families in Telangana. Kalyana Lakshmi covers SC, ST, BC and EBC brides; Shaadi Mubarak covers minority brides.",
+    "benefits": "One-time assistance of Rs 1,00,116 credited to the bride's bank account.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "age_min": 18,
+      "states": [
+        "Telangana"
+      ],
+      "income_max": 200000,
+      "other_criteria": [
+        "Bride must have completed 18 years at the time of marriage",
+        "Family income within the notified ceiling",
+        "Bride's family must be a resident of Telangana"
+      ]
+    },
+    "documents": [
+      "Aadhaar of bride and groom",
+      "Caste certificate",
+      "Income certificate",
+      "Age proof of the bride",
+      "Marriage certificate or wedding invitation",
+      "Bank account of the bride"
+    ],
+    "process": [
+      "Apply on the Telangana ePass / Kalyana Lakshmi portal before or shortly after the marriage",
+      "Verification by the Tahsildar and welfare officer",
+      "Amount credited to the bride's account"
+    ],
+    "deadline": "Apply within the window notified around the marriage date",
+    "official_link": "https://telanganaepass.cgg.gov.in",
+    "keywords": "marriage bride daughter wedding financial assistance telangana kalyana lakshmi shaadi mubarak girl",
+    "source": "curated"
+  },
+  {
+    "id": "ts-rythu-bharosa",
+    "name": "Rythu Bharosa (formerly Rythu Bandhu)",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Agriculture Department, Telangana",
+    "categories": [
+      "agriculture",
+      "income support"
+    ],
+    "summary": "Investment support paid to farmers in Telangana every crop season for cultivating land.",
+    "benefits": "Per-acre investment support paid each season directly to the farmer's bank account. The per-acre rate and coverage of land were revised when the scheme was renamed — verify the current rate.",
+    "eligibility": {
+      "occupation": [
+        "farmer"
+      ],
+      "states": [
+        "Telangana"
+      ],
+      "other_criteria": [
+        "Must own cultivable agricultural land recorded in the Dharani portal",
+        "Land put to non-agricultural use is excluded"
+      ]
+    },
+    "documents": [
+      "Pattadar passbook",
+      "Aadhaar card",
+      "Bank account details"
+    ],
+    "process": [
+      "Land records verified automatically through the Dharani portal",
+      "Amount credited each season by DBT",
+      "Grievances raised with the Agriculture Extension Officer"
+    ],
+    "deadline": "Paid season-wise (kharif and rabi)",
+    "official_link": "https://rythubandhu.telangana.gov.in",
+    "keywords": "farmer telangana land investment support rythu bandhu bharosa crop season agriculture",
+    "source": "curated"
+  },
+  {
+    "id": "ts-rythu-bima",
+    "name": "Rythu Bima (Farmers Group Life Insurance)",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Agriculture Department, Telangana",
+    "categories": [
+      "agriculture",
+      "insurance"
+    ],
+    "summary": "Group life insurance for Telangana farmers, with the premium paid entirely by the state government.",
+    "benefits": "Rs 5 lakh paid to the nominee within days of the farmer's death from any cause, with no premium payable by the farmer.",
+    "eligibility": {
+      "age_min": 18,
+      "age_max": 59,
+      "occupation": [
+        "farmer"
+      ],
+      "states": [
+        "Telangana"
+      ],
+      "other_criteria": [
+        "Land-owning farmer enrolled through the Rythu Bandhu / Rythu Bharosa database"
+      ]
+    },
+    "documents": [
+      "Pattadar passbook",
+      "Aadhaar card",
+      "Nominee details and bank account"
+    ],
+    "process": [
+      "Enrolment done by the Agriculture Extension Officer along with Rythu Bharosa",
+      "On death, the nominee submits the claim to the AEO",
+      "Claim settled by LIC within days"
+    ],
+    "deadline": "Annual enrolment cycle",
+    "official_link": "https://rythubandhu.telangana.gov.in",
+    "keywords": "farmer life insurance telangana death nominee rythu bima 5 lakh",
+    "source": "curated"
+  },
+  {
+    "id": "ts-mahalakshmi-bus",
+    "name": "Mahalakshmi Free Bus Travel for Women",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Transport Department, Telangana",
+    "categories": [
+      "women",
+      "transport"
+    ],
+    "summary": "Free travel for women and girls in TGSRTC buses within Telangana.",
+    "benefits": "Zero-fare travel in ordinary, Express and Metro Express TGSRTC services across the state for women, girls and transgender persons.",
+    "eligibility": {
+      "gender": [
+        "female",
+        "transgender"
+      ],
+      "states": [
+        "Telangana"
+      ],
+      "other_criteria": [
+        "Must be a resident of Telangana and carry valid identity proof showing residence"
+      ]
+    },
+    "documents": [
+      "Aadhaar card or any state-issued residence proof"
+    ],
+    "process": [
+      "Board an eligible TGSRTC bus",
+      "Show identity proof to the conductor",
+      "A zero-fare ticket is issued"
+    ],
+    "deadline": "Ongoing",
+    "official_link": "https://www.tgsrtc.telangana.gov.in",
+    "keywords": "free bus travel women girls telangana transport rtc zero ticket",
+    "source": "curated"
+  },
+  {
+    "id": "ts-epass",
+    "name": "Telangana ePASS Post-Matric Scholarship",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Welfare Departments, Telangana",
+    "categories": [
+      "education",
+      "scholarship"
+    ],
+    "summary": "Tuition fee reimbursement and maintenance allowance for SC, ST, BC, EBC, minority and disabled students in Telangana studying beyond class 10.",
+    "benefits": "Reimbursement of tuition fees to the institution plus a maintenance charge to the student, at rates depending on the course and hosteller status.",
+    "eligibility": {
+      "states": [
+        "Telangana"
+      ],
+      "income_max": 200000,
+      "education": [
+        "class 11",
+        "class 12",
+        "diploma",
+        "undergraduate",
+        "postgraduate"
+      ],
+      "other_criteria": [
+        "Student must be a resident of Telangana studying at post-matric level in a recognised institution",
+        "Family income within the notified ceiling (higher limit for rural households in some categories)"
+      ]
+    },
+    "documents": [
+      "Caste certificate",
+      "Income certificate",
+      "Aadhaar card",
+      "Bonafide certificate and fee receipt",
+      "Bank account details"
+    ],
+    "process": [
+      "Apply on the Telangana ePASS portal during the annual window",
+      "College verifies the application",
+      "Fee reimbursed to the college and maintenance paid to the student"
+    ],
+    "deadline": "Annual window, usually aligned with the academic year",
+    "official_link": "https://telanganaepass.cgg.gov.in",
+    "keywords": "scholarship telangana fee reimbursement college student epass tuition sc st bc minority",
+    "source": "curated"
+  },
+  {
+    "id": "ts-cheyutha-pension",
+    "name": "Aasara Pensions (Telangana Social Security Pensions)",
+    "level": "state",
+    "state": "Telangana",
+    "ministry": "Rural Development Department, Telangana",
+    "categories": [
+      "pension",
+      "senior citizen",
+      "disability",
+      "women"
+    ],
+    "summary": "Monthly social security pension for old-age persons, widows, persons with disability, beedi workers, single women, weavers, toddy tappers and people affected by HIV or filaria in Telangana.",
+    "benefits": "Monthly pension paid to the beneficiary's account, with a higher rate for persons with disability. Rates have been revised over time — verify the current amount.",
+    "eligibility": {
+      "states": [
+        "Telangana"
+      ],
+      "other_criteria": [
+        "Falls under one of the notified categories such as old age, widow, disability, single woman, weaver, toddy tapper or beedi worker",
+        "Family must be within the poverty criteria set by the state",
+        "Age criteria differ by category"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Category proof such as death certificate of husband or disability certificate",
+      "Bank account details"
+    ],
+    "process": [
+      "Apply through the Gram Panchayat, MPDO office or municipal ward office",
+      "Field verification by the local officer",
+      "Pension credited monthly"
+    ],
+    "deadline": "Applications accepted when the state opens the window",
+    "official_link": "https://aasara.telangana.gov.in",
+    "keywords": "pension telangana old age widow disability single woman aasara monthly weaver beedi",
+    "source": "curated"
+  },
+  {
+    "id": "ap-ysr-pension",
+    "name": "NTR Bharosa Pensions (Andhra Pradesh Social Security Pensions)",
+    "level": "state",
+    "state": "Andhra Pradesh",
+    "ministry": "Department of Rural Development, Andhra Pradesh",
+    "categories": [
+      "pension",
+      "senior citizen",
+      "disability",
+      "women"
+    ],
+    "summary": "Monthly social security pension delivered at the doorstep for old-age persons, widows, persons with disability, weavers, toddy tappers, fishermen, single women and others in Andhra Pradesh.",
+    "benefits": "Monthly pension delivered at the doorstep by the village or ward volunteer, with a higher amount for persons with severe disability and specified illnesses. Verify the current rate.",
+    "eligibility": {
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "other_criteria": [
+        "Must fall under one of the notified pension categories",
+        "Household must meet the state's eligibility criteria on land, income and assets",
+        "Age criteria differ by category"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Rice card",
+      "Category proof",
+      "Bank account details"
+    ],
+    "process": [
+      "Apply through the Village or Ward Secretariat",
+      "Verified by the volunteer and welfare assistant",
+      "Pension delivered monthly at the doorstep"
+    ],
+    "deadline": "Applications accepted at the secretariat through the year",
+    "official_link": "https://sspensions.ap.gov.in",
+    "keywords": "pension andhra pradesh old age widow disability monthly ntr bharosa volunteer",
+    "source": "curated"
+  },
+  {
+    "id": "ap-deepam",
+    "name": "Deepam (Free LPG Cylinders)",
+    "level": "state",
+    "state": "Andhra Pradesh",
+    "ministry": "Civil Supplies Department, Andhra Pradesh",
+    "categories": [
+      "women",
+      "energy",
+      "household"
+    ],
+    "summary": "Free domestic LPG cylinders each year for eligible households in Andhra Pradesh.",
+    "benefits": "A set number of free LPG refills per year, with the subsidy amount credited to the beneficiary's bank account after purchase. Verify the current number of cylinders.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "other_criteria": [
+        "Household must hold a rice card and an LPG connection in the woman's name",
+        "Household must meet the state's eligibility norms"
+      ]
+    },
+    "documents": [
+      "Rice card",
+      "Aadhaar card",
+      "LPG connection details",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Eligibility mapped through the rice card and LPG database",
+      "Buy the refill at the market price",
+      "Subsidy credited to the bank account"
+    ],
+    "deadline": "Ongoing",
+    "official_link": "https://www.ap.gov.in",
+    "keywords": "lpg gas cylinder free andhra pradesh women cooking deepam household",
+    "source": "curated"
+  },
+  {
+    "id": "ap-jagananna-vidya",
+    "name": "Fee Reimbursement Scheme, Andhra Pradesh",
+    "level": "state",
+    "state": "Andhra Pradesh",
+    "ministry": "Social Welfare Department, Andhra Pradesh",
+    "categories": [
+      "education",
+      "scholarship"
+    ],
+    "summary": "Full tuition fee reimbursement and hostel maintenance support for eligible students in higher education in Andhra Pradesh.",
+    "benefits": "Reimbursement of tuition fees for ITI, polytechnic, degree, engineering and postgraduate courses, plus a maintenance amount towards hostel and mess charges.",
+    "eligibility": {
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "income_max": 250000,
+      "education": [
+        "diploma",
+        "undergraduate",
+        "postgraduate",
+        "engineering"
+      ],
+      "other_criteria": [
+        "Student's family must meet the state's income, land and asset criteria",
+        "Must have secured admission through the state counselling process",
+        "Minimum attendance required for release of instalments"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Income certificate",
+      "Caste certificate where applicable",
+      "Admission and fee details",
+      "Bank account of the mother or student"
+    ],
+    "process": [
+      "Apply on the Jnanabhumi portal",
+      "College verifies attendance and admission",
+      "Amount credited to the linked account"
+    ],
+    "deadline": "Per academic year, quarterly release",
+    "official_link": "https://jnanabhumi.ap.gov.in",
+    "keywords": "fee reimbursement andhra pradesh college student tuition scholarship engineering degree",
+    "source": "curated"
+  },
+  {
+    "id": "mh-ladki-bahin",
+    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "level": "state",
+    "state": "Maharashtra",
+    "ministry": "Women and Child Development Department, Maharashtra",
+    "categories": [
+      "women",
+      "income support"
+    ],
+    "summary": "Monthly cash assistance to economically weaker women in Maharashtra.",
+    "benefits": "Monthly assistance credited directly to the woman's bank account. Verify the current monthly amount, which the state has revised.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "age_min": 21,
+      "age_max": 65,
+      "income_max": 250000,
+      "states": [
+        "Maharashtra"
+      ],
+      "other_criteria": [
+        "Must be a resident of Maharashtra",
+        "Family income within the notified ceiling",
+        "Families with an income-tax payer, a government employee or more than five acres of land are excluded",
+        "Only a limited number of women per family"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Domicile certificate",
+      "Income certificate or yellow/orange ration card",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Apply through the Narishakti Doot app, the state portal, or at the Anganwadi or ward office",
+      "Verification by the local committee",
+      "Amount credited monthly"
+    ],
+    "deadline": "Verify whether fresh applications are open",
+    "official_link": "https://ladakibahin.maharashtra.gov.in",
+    "keywords": "women maharashtra monthly assistance ladki bahin cash support sister",
+    "source": "curated"
+  },
+  {
+    "id": "mp-ladli-behna",
+    "name": "Mukhyamantri Ladli Behna Yojana",
+    "level": "state",
+    "state": "Madhya Pradesh",
+    "ministry": "Women and Child Development Department, Madhya Pradesh",
+    "categories": [
+      "women",
+      "income support"
+    ],
+    "summary": "Monthly financial assistance for women in Madhya Pradesh to improve their economic independence and nutrition.",
+    "benefits": "Monthly assistance credited to the woman's own bank account. The amount has been revised upward in stages — verify the current rate.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "age_min": 21,
+      "age_max": 60,
+      "income_max": 250000,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "other_criteria": [
+        "Married, widowed, divorced or abandoned women who are residents of Madhya Pradesh",
+        "Family income within the notified ceiling",
+        "Families with an income-tax payer, a government employee or more than five acres of land are excluded"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Samagra ID",
+      "Bank account linked to Aadhaar with DBT enabled"
+    ],
+    "process": [
+      "Apply at the camp, Gram Panchayat or ward office when the window opens",
+      "e-KYC and verification",
+      "Amount credited monthly"
+    ],
+    "deadline": "Verify whether fresh registration is open",
+    "official_link": "https://cmladlibahna.mp.gov.in",
+    "keywords": "women madhya pradesh monthly assistance ladli behna cash support sister",
+    "source": "curated"
+  },
+  {
+    "id": "ka-gruha-lakshmi",
+    "name": "Gruha Lakshmi",
+    "level": "state",
+    "state": "Karnataka",
+    "ministry": "Women and Child Development Department, Karnataka",
+    "categories": [
+      "women",
+      "income support"
+    ],
+    "summary": "Monthly assistance to the woman head of every eligible household in Karnataka.",
+    "benefits": "Rs 2,000 per month credited to the bank account of the woman named as head of the family on the ration card.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "states": [
+        "Karnataka"
+      ],
+      "other_criteria": [
+        "Must be the woman head of the family as per an APL, BPL or Antyodaya ration card",
+        "The woman or her husband must not be an income-tax payer or a GST return filer"
+      ]
+    },
+    "documents": [
+      "Ration card",
+      "Aadhaar card",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Apply at a Gram One, Karnataka One or Bangalore One centre or on the Seva Sindhu portal",
+      "Verification against ration card and tax records",
+      "Amount credited monthly"
+    ],
+    "deadline": "Applications open round the year",
+    "official_link": "https://sevasindhugs.karnataka.gov.in",
+    "keywords": "women karnataka monthly assistance gruha lakshmi household head ration card",
+    "source": "curated"
+  },
+  {
+    "id": "ka-shakti",
+    "name": "Shakti - Free Bus Travel for Women",
+    "level": "state",
+    "state": "Karnataka",
+    "ministry": "Transport Department, Karnataka",
+    "categories": [
+      "women",
+      "transport"
+    ],
+    "summary": "Free travel for women in ordinary state-run buses across Karnataka.",
+    "benefits": "Zero-fare travel in non-luxury KSRTC, BMTC, NWKRTC and KKRTC buses within the state.",
+    "eligibility": {
+      "gender": [
+        "female",
+        "transgender"
+      ],
+      "states": [
+        "Karnataka"
+      ],
+      "other_criteria": [
+        "Must be a resident of Karnataka with valid identity proof"
+      ]
+    },
+    "documents": [
+      "Aadhaar card or Shakti smart card"
+    ],
+    "process": [
+      "Board an eligible bus and show identity proof",
+      "A zero-fare ticket is issued"
+    ],
+    "deadline": "Ongoing",
+    "official_link": "https://sevasindhugs.karnataka.gov.in",
+    "keywords": "free bus travel women karnataka shakti transport ksrtc bmtc",
+    "source": "curated"
+  },
+  {
+    "id": "ka-yuva-nidhi",
+    "name": "Yuva Nidhi - Unemployment Allowance",
+    "level": "state",
+    "state": "Karnataka",
+    "ministry": "Skill Development Department, Karnataka",
+    "categories": [
+      "employment",
+      "student",
+      "income support"
+    ],
+    "summary": "Monthly unemployment allowance for graduates and diploma holders in Karnataka who remain unemployed after finishing their course.",
+    "benefits": "Rs 3,000 per month for graduates and Rs 1,500 per month for diploma holders, for up to 24 months or until the person finds a job.",
+    "eligibility": {
+      "occupation": [
+        "unemployed"
+      ],
+      "education": [
+        "diploma",
+        "undergraduate"
+      ],
+      "states": [
+        "Karnataka"
+      ],
+      "other_criteria": [
+        "Must have passed the degree or diploma in the qualifying year and remained unemployed for at least six months after that",
+        "Must be a resident of Karnataka",
+        "Not eligible if employed, self-employed, receiving another stipend, or pursuing higher education"
+      ]
+    },
+    "documents": [
+      "Degree or diploma certificate",
+      "Aadhaar card",
+      "Domicile proof",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Apply on the Seva Sindhu portal",
+      "Verification of unemployment status",
+      "Allowance credited monthly"
+    ],
+    "deadline": "Apply within the window after completing the course",
+    "official_link": "https://sevasindhugs.karnataka.gov.in",
+    "keywords": "unemployment allowance karnataka graduate diploma fresher job yuva nidhi stipend",
+    "source": "curated"
+  },
+  {
+    "id": "tn-magalir-urimai",
+    "name": "Kalaignar Magalir Urimai Thogai",
+    "level": "state",
+    "state": "Tamil Nadu",
+    "ministry": "Social Welfare and Women Empowerment Department, Tamil Nadu",
+    "categories": [
+      "women",
+      "income support"
+    ],
+    "summary": "Monthly entitlement for eligible women heads of families in Tamil Nadu.",
+    "benefits": "Rs 1,000 per month credited to the woman's bank account.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "age_min": 21,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "other_criteria": [
+        "Must be the eligible woman head of the family as determined by the state",
+        "Families with an income-tax payer, a government employee or land above the notified limit are excluded"
+      ]
+    },
+    "documents": [
+      "Ration card",
+      "Aadhaar card",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Apply at the special camp or through the e-Sevai centre",
+      "Verification by the revenue officials",
+      "Amount credited monthly"
+    ],
+    "deadline": "Verify whether fresh applications are open",
+    "official_link": "https://kmut.tn.gov.in",
+    "keywords": "women tamil nadu monthly assistance magalir urimai thogai household head",
+    "source": "curated"
+  },
+  {
+    "id": "tn-pudhumai-penn",
+    "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance (Pudhumai Penn)",
+    "level": "state",
+    "state": "Tamil Nadu",
+    "ministry": "Department of School Education, Tamil Nadu",
+    "categories": [
+      "education",
+      "women",
+      "scholarship"
+    ],
+    "summary": "Monthly incentive for girls from government schools in Tamil Nadu to continue into higher education.",
+    "benefits": "Rs 1,000 per month paid directly to the student for the duration of her undergraduate, diploma or ITI course.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "education": [
+        "diploma",
+        "undergraduate"
+      ],
+      "other_criteria": [
+        "Must have studied from class 6 to class 12 in a government school in Tamil Nadu",
+        "Must be enrolled in a recognised higher education course"
+      ]
+    },
+    "documents": [
+      "Class 12 marksheet and school records",
+      "Aadhaar card",
+      "College admission proof",
+      "Bank account in the student's name"
+    ],
+    "process": [
+      "School and college upload the student's details on the scheme portal",
+      "Verification by the education department",
+      "Amount credited monthly"
+    ],
+    "deadline": "Applied at the time of joining higher education",
+    "official_link": "https://penkalvi.tn.gov.in",
+    "keywords": "girl student tamil nadu government school higher education monthly incentive college pudhumai penn",
+    "source": "curated"
+  },
+  {
+    "id": "dl-mukhyamantri-tirth",
+    "name": "Mukhyamantri Tirth Yatra Yojana, Delhi",
+    "level": "state",
+    "state": "Delhi",
+    "ministry": "Revenue Department, Government of NCT of Delhi",
+    "categories": [
+      "senior citizen",
+      "travel"
+    ],
+    "summary": "Free pilgrimage travel for senior citizens residing in Delhi, along with one attendant.",
+    "benefits": "Free rail travel, boarding, lodging and local transport for a pilgrimage circuit, with one attendant allowed for each pilgrim.",
+    "eligibility": {
+      "age_min": 60,
+      "states": [
+        "Delhi"
+      ],
+      "other_criteria": [
+        "Must be a resident of Delhi",
+        "Must not be a serving or retired government employee in most cases",
+        "Family income within the notified ceiling"
+      ]
+    },
+    "documents": [
+      "Aadhaar card with Delhi address",
+      "Age proof",
+      "Income self-declaration",
+      "Medical fitness certificate"
+    ],
+    "process": [
+      "Apply on the Delhi e-district portal",
+      "Selection by draw of lots if applications exceed seats",
+      "Travel arranged by the department"
+    ],
+    "deadline": "Trip-wise application windows",
+    "official_link": "https://edistrict.delhigovt.nic.in",
+    "keywords": "senior citizen delhi pilgrimage free travel elderly tirth yatra train",
+    "source": "curated"
+  },
+  {
+    "id": "up-kanya-sumangala",
+    "name": "Mukhyamantri Kanya Sumangala Yojana",
+    "level": "state",
+    "state": "Uttar Pradesh",
+    "ministry": "Women and Child Development Department, Uttar Pradesh",
+    "categories": [
+      "girl child",
+      "education",
+      "financial assistance"
+    ],
+    "summary": "Staged financial assistance for girls in Uttar Pradesh from birth through higher education.",
+    "benefits": "Assistance paid in six stages — at birth, after full immunisation, on entering class 1, class 6, class 9, and on joining a degree or diploma course. Total amount per girl was enhanced — verify the current figure.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "income_max": 300000,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "other_criteria": [
+        "Family must be a resident of Uttar Pradesh with annual income within the notified ceiling",
+        "Benefit limited to two girls per family"
+      ]
+    },
+    "documents": [
+      "Birth certificate of the girl",
+      "Aadhaar of parent and child",
+      "Income certificate",
+      "Bank account of the parent",
+      "School enrolment proof for later stages"
+    ],
+    "process": [
+      "Apply on the Kanya Sumangala portal or at the block or district probation office",
+      "Verification at each stage",
+      "Amount credited at each qualifying stage"
+    ],
+    "deadline": "Apply at each qualifying stage",
+    "official_link": "https://mksy.up.gov.in",
+    "keywords": "girl child uttar pradesh education birth daughter financial assistance kanya sumangala",
+    "source": "curated"
+  },
+  {
+    "id": "rj-chiranjeevi",
+    "name": "Mukhyamantri Ayushman Arogya Yojana, Rajasthan",
+    "level": "state",
+    "state": "Rajasthan",
+    "ministry": "Medical, Health and Family Welfare Department, Rajasthan",
+    "categories": [
+      "health",
+      "insurance"
+    ],
+    "summary": "Cashless hospital treatment for families in Rajasthan at empanelled government and private hospitals.",
+    "benefits": "High-value cashless health cover per family per year, including accident cover. The cover amount has been revised over time — verify the current ceiling.",
+    "eligibility": {
+      "states": [
+        "Rajasthan"
+      ],
+      "other_criteria": [
+        "Resident families of Rajasthan; free for NFSA, SECC, small and marginal farmer and contract worker categories, and available to others on payment of an annual premium"
+      ]
+    },
+    "documents": [
+      "Jan Aadhaar card",
+      "Aadhaar card",
+      "Category proof where applicable"
+    ],
+    "process": [
+      "Register through the Jan Aadhaar portal or an e-Mitra kiosk",
+      "Policy generated against the Jan Aadhaar family",
+      "Show the card at an empanelled hospital for cashless treatment"
+    ],
+    "deadline": "Annual registration window",
+    "official_link": "https://health.rajasthan.gov.in",
+    "keywords": "health insurance rajasthan hospital cashless treatment chiranjeevi jan aadhaar surgery",
+    "source": "curated"
+  },
+  {
+    "id": "wb-kanyashree",
+    "name": "Kanyashree Prakalpa",
+    "level": "state",
+    "state": "West Bengal",
+    "ministry": "Women and Child Development and Social Welfare Department, West Bengal",
+    "categories": [
+      "girl child",
+      "education",
+      "scholarship"
+    ],
+    "summary": "Conditional cash transfer that keeps girls in school and delays marriage in West Bengal.",
+    "benefits": "Annual scholarship of Rs 1,000 for unmarried girls aged 13-18 who stay in school (K1), and a one-time grant of Rs 25,000 at age 18 if still unmarried and studying (K2).",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "age_min": 13,
+      "age_max": 19,
+      "income_max": 120000,
+      "states": [
+        "West Bengal"
+      ],
+      "other_criteria": [
+        "Girl must be unmarried and enrolled in a recognised school, college or vocational course",
+        "Income ceiling waived for girls with disability or those who are orphans"
+      ]
+    },
+    "documents": [
+      "Birth certificate",
+      "Income certificate",
+      "School or college enrolment proof",
+      "Bank account in the girl's name",
+      "Unmarried self-declaration"
+    ],
+    "process": [
+      "Apply through the school or college on the Kanyashree portal",
+      "Institution verifies and forwards the application",
+      "Amount credited to the girl's account"
+    ],
+    "deadline": "Annual application window through the institution",
+    "official_link": "https://wbkanyashree.gov.in",
+    "keywords": "girl student west bengal school scholarship unmarried education kanyashree 25000",
+    "source": "curated"
+  },
+  {
+    "id": "bihar-student-credit",
+    "name": "Bihar Student Credit Card Scheme",
+    "level": "state",
+    "state": "Bihar",
+    "ministry": "Education Department, Bihar",
+    "categories": [
+      "education",
+      "credit"
+    ],
+    "summary": "Education loan on easy terms for students in Bihar pursuing higher education after class 12.",
+    "benefits": "Education loan of up to Rs 4 lakh at a simple interest rate of 4%, reduced to 1% for women, transgender persons and persons with disability. Repayment begins after the course ends.",
+    "eligibility": {
+      "age_max": 25,
+      "education": [
+        "undergraduate",
+        "diploma",
+        "postgraduate"
+      ],
+      "states": [
+        "Bihar"
+      ],
+      "other_criteria": [
+        "Must be a permanent resident of Bihar who has passed class 12 from a recognised board",
+        "Must have secured admission to a recognised higher education course"
+      ]
+    },
+    "documents": [
+      "Class 10 and 12 marksheets",
+      "Admission letter and fee structure",
+      "Aadhaar and residence certificate",
+      "Bank account details",
+      "Co-applicant documents"
+    ],
+    "process": [
+      "Register on the Bihar Student Credit Card portal",
+      "Attend the counselling at the District Registration and Counselling Centre",
+      "Loan sanctioned and fees paid to the institution"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+    "keywords": "education loan bihar student college fees credit card higher education 4 lakh",
+    "source": "curated"
+  },
+  {
+    "id": "bihar-berojgari-bhatta",
+    "name": "Bihar Self-Help Allowance (Berojgari Bhatta)",
+    "level": "state",
+    "state": "Bihar",
+    "ministry": "Labour Resources Department, Bihar",
+    "categories": [
+      "employment",
+      "income support"
+    ],
+    "summary": "Monthly allowance for unemployed youth in Bihar while they look for work or acquire skills.",
+    "benefits": "Rs 1,000 per month for up to two years, paid alongside mandatory soft-skill and language training.",
+    "eligibility": {
+      "age_min": 20,
+      "age_max": 25,
+      "occupation": [
+        "unemployed"
+      ],
+      "education": [
+        "class 12"
+      ],
+      "states": [
+        "Bihar"
+      ],
+      "other_criteria": [
+        "Must have passed class 12 and be unemployed",
+        "Must not be pursuing regular higher education or receiving another government stipend",
+        "Must be a permanent resident of Bihar"
+      ]
+    },
+    "documents": [
+      "Class 12 marksheet",
+      "Residence certificate",
+      "Aadhaar card",
+      "Bank account linked to Aadhaar"
+    ],
+    "process": [
+      "Register on the Nishchay Yuva portal",
+      "Attend counselling at the DRCC",
+      "Allowance credited monthly during the training period"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://www.7nishchay-yuvaupmission.bihar.gov.in",
+    "keywords": "unemployment allowance bihar youth job berojgari bhatta 12th pass monthly",
+    "source": "curated"
+  },
+  {
+    "id": "gj-namo-lakshmi",
+    "name": "Namo Lakshmi Yojana",
+    "level": "state",
+    "state": "Gujarat",
+    "ministry": "Education Department, Gujarat",
+    "categories": [
+      "girl child",
+      "education",
+      "scholarship"
+    ],
+    "summary": "Financial assistance for girl students in Gujarat studying in classes 9 to 12, to cut the dropout rate.",
+    "benefits": "Total of Rs 50,000 across four years — paid in instalments through classes 9 and 10 and classes 11 and 12, partly on completion of each board examination.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "income_max": 600000,
+      "education": [
+        "class 9",
+        "class 10",
+        "class 11",
+        "class 12"
+      ],
+      "states": [
+        "Gujarat"
+      ],
+      "other_criteria": [
+        "Studying in a government, grant-in-aid or recognised private school in Gujarat",
+        "Family income within the notified ceiling"
+      ]
+    },
+    "documents": [
+      "School enrolment proof",
+      "Income certificate",
+      "Aadhaar card",
+      "Bank account in the girl's name with the mother as guardian"
+    ],
+    "process": [
+      "School registers the student on the scheme portal",
+      "Verification by the education department",
+      "Amount credited in instalments"
+    ],
+    "deadline": "Applied at the start of the academic year through the school",
+    "official_link": "https://education.gujarat.gov.in",
+    "keywords": "girl student gujarat school class 9 class 12 scholarship dropout namo lakshmi",
+    "source": "curated"
+  },
+  {
+    "id": "pb-ghar-ghar-rozgar",
+    "name": "Ghar Ghar Rozgar and Karobar Mission, Punjab",
+    "level": "state",
+    "state": "Punjab",
+    "ministry": "Employment Generation, Skill Development and Training Department, Punjab",
+    "categories": [
+      "employment",
+      "skill",
+      "student"
+    ],
+    "summary": "State employment mission that connects job seekers in Punjab with private employers, skill training and self-employment support.",
+    "benefits": "Free registration on the state job portal, access to job fairs and placement drives, counselling, skill training and help in accessing self-employment loans.",
+    "eligibility": {
+      "age_min": 18,
+      "occupation": [
+        "unemployed",
+        "student",
+        "self employed"
+      ],
+      "states": [
+        "Punjab"
+      ],
+      "other_criteria": [
+        "Job seekers resident in Punjab",
+        "No income bar for registration"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Educational certificates",
+      "Residence proof",
+      "Resume"
+    ],
+    "process": [
+      "Register on the PGRKAM portal",
+      "Attend job fairs or counselling at the district bureau of employment",
+      "Apply to matched vacancies"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://www.pgrkam.com",
+    "keywords": "job employment punjab unemployed placement job fair skill training rozgar",
+    "source": "curated"
+  },
+  {
+    "id": "kl-karunya-arogya",
+    "name": "Karunya Arogya Suraksha Padhathi (KASP), Kerala",
+    "level": "state",
+    "state": "Kerala",
+    "ministry": "Health and Family Welfare Department, Kerala",
+    "categories": [
+      "health",
+      "insurance"
+    ],
+    "summary": "Kerala's integrated health insurance scheme combining PM-JAY with the state's own coverage for additional families.",
+    "benefits": "Cashless hospital treatment of Rs 5 lakh per family per year at empanelled hospitals, extended to state-identified families beyond the central list.",
+    "eligibility": {
+      "states": [
+        "Kerala"
+      ],
+      "other_criteria": [
+        "Families in the SECC / state-notified list",
+        "Must be a resident of Kerala"
+      ]
+    },
+    "documents": [
+      "KASP or Ayushman card",
+      "Aadhaar card",
+      "Ration card"
+    ],
+    "process": [
+      "Check eligibility on the state health agency portal",
+      "Get the card issued at an Akshaya centre or empanelled hospital",
+      "Use the card for cashless treatment"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://sha.kerala.gov.in",
+    "keywords": "health insurance kerala hospital cashless treatment karunya ayushman",
+    "source": "curated"
+  },
+  {
+    "id": "od-kalia",
+    "name": "KALIA - Krushak Assistance for Livelihood and Income Augmentation, Odisha",
+    "level": "state",
+    "state": "Odisha",
+    "ministry": "Agriculture and Farmers' Empowerment Department, Odisha",
+    "categories": [
+      "agriculture",
+      "income support"
+    ],
+    "summary": "Assistance to small and marginal farmers, landless agricultural labourers and vulnerable rural households in Odisha.",
+    "benefits": "Cultivation support paid per season to small and marginal farmers, a livelihood grant for landless agricultural households, and assistance for the vulnerable and elderly. Verify current rates.",
+    "eligibility": {
+      "occupation": [
+        "farmer",
+        "labourer"
+      ],
+      "states": [
+        "Odisha"
+      ],
+      "other_criteria": [
+        "Small and marginal farmers, sharecroppers, landless agricultural labourers and vulnerable rural households",
+        "Income-tax payers and government employees are excluded"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Land records or sharecropper declaration",
+      "Bank account details"
+    ],
+    "process": [
+      "Apply on the KALIA portal or at the Gram Panchayat when the window opens",
+      "Verification by the village committee",
+      "Amount credited by DBT"
+    ],
+    "deadline": "Season-wise disbursal windows",
+    "official_link": "https://kalia.odisha.gov.in",
+    "keywords": "farmer odisha agriculture support landless labourer sharecropper kalia livelihood",
+    "source": "curated"
+  },
+  {
+    "id": "as-orunodoi",
+    "name": "Orunodoi, Assam",
+    "level": "state",
+    "state": "Assam",
+    "ministry": "Finance Department, Assam",
+    "categories": [
+      "women",
+      "income support"
+    ],
+    "summary": "Monthly cash transfer to the woman head of eligible poor households in Assam.",
+    "benefits": "Monthly amount credited to the woman head of the household for food, medicines and essentials. The amount has been revised — verify the current rate.",
+    "eligibility": {
+      "gender": [
+        "female"
+      ],
+      "income_max": 200000,
+      "states": [
+        "Assam"
+      ],
+      "other_criteria": [
+        "Household must meet the state's poverty and exclusion criteria",
+        "Priority to households with widows, divorced women, persons with disability and unmarried women",
+        "Government employees and income-tax payers are excluded"
+      ]
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Bank account linked to Aadhaar",
+      "Voter ID"
+    ],
+    "process": [
+      "Apply at the circle office or online when the window opens",
+      "Verification by the district committee",
+      "Amount credited monthly"
+    ],
+    "deadline": "Applications open in phases",
+    "official_link": "https://orunodoi.assam.gov.in",
+    "keywords": "women assam monthly assistance poor household cash transfer orunodoi",
+    "source": "curated"
+  },
+  {
+    "id": "hr-ladli",
+    "name": "Ladli Social Security Allowance, Haryana",
+    "level": "state",
+    "state": "Haryana",
+    "ministry": "Social Justice and Empowerment Department, Haryana",
+    "categories": [
+      "girl child",
+      "pension",
+      "women"
+    ],
+    "summary": "Monthly allowance for parents in Haryana who have only girl children, payable to the mother or father.",
+    "benefits": "Monthly allowance paid to the parent for a fixed number of years, to encourage families to value the girl child. Verify the current rate and duration.",
+    "eligibility": {
+      "states": [
+        "Haryana"
+      ],
+      "other_criteria": [
+        "Both parents must be residents of Haryana with no son, only one or more daughters",
+        "Age criteria apply to the parent claiming the allowance"
+      ]
+    },
+    "documents": [
+      "Birth certificates of the daughters",
+      "Aadhaar and residence proof of parents",
+      "Family ID (Parivar Pehchan Patra)",
+      "Bank account details"
+    ],
+    "process": [
+      "Apply through the Antyodaya Saral portal or the district social welfare office",
+      "Verification against the family ID",
+      "Allowance credited monthly"
+    ],
+    "deadline": "Open round the year",
+    "official_link": "https://saralharyana.gov.in",
+    "keywords": "girl child haryana daughter allowance parents monthly ladli social security",
+    "source": "curated"
+  }
+]

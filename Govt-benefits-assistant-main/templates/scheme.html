@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}"{% if rtl %} dir="rtl"{% endif %}>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ scheme.name }} — eligibility, benefits and how to apply</title>
+<meta name="description" content="{{ scheme.summary[:155] }}">
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ scheme.name }}">
+<meta property="og:description" content="{{ scheme.summary[:155] }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": {{ scheme.name|tojson }},
+  "description": {{ scheme.summary|tojson }},
+  "serviceType": {{ (scheme.categories|join(", "))|tojson }},
+  "provider": {"@type": "GovernmentOrganization", "name": {{ scheme.ministry|tojson }}},
+  "areaServed": {"@type": "AdministrativeArea", "name": {{ (scheme.state or "India")|tojson }}}
+  {%- if scheme.official_link %},
+  "url": {{ scheme.official_link|tojson }}
+  {%- endif %}
+}
+</script>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div>
+      <h1><a href="/?lang={{ lang }}" style="color:inherit;text-decoration:none">{{ t.app_title }}</a></h1>
+      <p class="masthead-sub">{{ t.app_sub }}</p>
+    </div>
+    <label class="lang">
+      <span class="lang-icon" aria-hidden="true">अ</span>
+      <select onchange="location.search='?lang='+this.value" aria-label="Language">
+        {% for code, label in languages %}
+        <option value="{{ code }}" {% if code == lang %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+    </label>
+  </div>
+</header>
+
+<main class="wrap article">
+  <nav class="crumbs">
+    <a href="/schemes">{{ t.results_heading }}</a>
+    {% if scheme.state %}<span>›</span><a href="/schemes/{{ scheme.state|lower|replace(' ', '-') }}">{{ scheme.state }}</a>
+    {% else %}<span>›</span><a href="/schemes/central">{{ t.badge_central }}</a>{% endif %}
+  </nav>
+
+  <article class="card">
+    <div class="card-top">
+      <div>
+        <div class="tags">
+          <span class="tag {{ scheme.level }}">{{ scheme.state or t.badge_central }}</span>
+          {% for c in scheme.categories %}<span class="tag">{{ c }}</span>{% endfor %}
+          {% if not scheme.verified %}<span class="tag">{{ t.badge_unverified }}</span>{% endif %}
+        </div>
+        <h2>{{ scheme.name }}</h2>
+        <p class="org">{{ scheme.ministry }}</p>
+        <p class="blurb">{{ scheme.summary }}</p>
+      </div>
+    </div>
+
+    <div class="detail" style="border-top:1px solid var(--rule)">
+      <h4>{{ t.sec_benefits }}</h4>
+      <p>{{ scheme.benefits }}</p>
+
+      {% if scheme.eligibility.other_criteria %}
+      <h4>{{ t.sec_criteria }}</h4>
+      <ul>{% for c in scheme.eligibility.other_criteria %}<li>{{ c }}</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if scheme.documents %}
+      <h4>{{ t.sec_docs }}</h4>
+      <ul>{% for d in scheme.documents %}<li>{{ d }}</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if scheme.process %}
+      <h4>{{ t.sec_process }}</h4>
+      <ol>{% for p in scheme.process %}<li>{{ p }}</li>{% endfor %}</ol>
+      {% endif %}
+
+      <h4>{{ t.sec_deadline }}</h4>
+      <p class="deadline">{{ scheme.deadline }}</p>
+
+      {% if scheme.official_link %}
+      <a class="apply" href="{{ scheme.official_link }}" target="_blank" rel="noopener nofollow">{{ t.btn_apply }}</a>
+      {% elif scheme.source_link %}
+      <a class="apply" href="{{ scheme.source_link }}" target="_blank" rel="noopener nofollow">{{ t.btn_apply }}</a>
+      {% endif %}
+      <p style="margin-top:18px">
+        <a href="/?lang={{ lang }}">{{ t.btn_find }}</a>
+      </p>
+    </div>
+  </article>
+
+  {% if related %}
+  <h3 class="near-head">{{ t.corpus_heading }}</h3>
+  <ul class="plain">
+    {% for r in related %}
+    <li><a href="/scheme/{{ r.id }}?lang={{ lang }}">{{ r.name }}</a>
+      <span class="muted">{{ r.state or t.badge_central }}</span></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</main>
+
+<footer class="wrap foot"><p>{{ t.disclaimer }}</p></footer>
+</body>
+</html>
